@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(180, 175, 162);
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.header2 {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+div.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+div.home-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+div.item {
+  display: block;
+}
+
+a:link,
+a:visited {
+
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(39, 31, 26);
+  color: white;
+}
+
+
+
+
+div.nav-column {
+  list-style-type: none;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  padding: 10px;
+  margin: 10px;
+  text-decoration-color: aquamarine;
+  display: inline-flex;
+  color: white;
+
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 10em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.row {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  column-count: 3;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 0 3rem;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.column {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  column-count: 3;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column>p {
+  text-align: center;
+  font-weight: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+#nadpis {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-size: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+h2 {
+  padding-top: 3rem;
+}
+
+.zmena-text {
+  text-align: center;
+  line-height: 2rem;
+  font-size: larger;
+  color:#ffffff;
+  
+  
+}
+.zmena-text:hover{
+  color:#000000
+}
+
+.vyhladaj {
+  margin: 20px 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.vyhladaj form {
+  margin: 0 auto;
+}
+
+.vyhladaj form input[type="text"] {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.vyhladaj form input[type="text"] {
+  border: 1px solid #aaa;
+}
+
+.vyhladaj form select {
+  position: relative;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.vyhladaj form select {
+  border: 1px solid #aaa;
+}
+
+.vyhladaj form input[type="submit"] {
+  width: 100px;
+  padding: 9px;
+  margin-top: 20px;
+  background-color: #3a3737;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.vyhladaj form input[type="submit"]:hover {
+  background-color: #444242;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.tabulka {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  background-color: #2816124d;
+  
+}
+
+.tabulka table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: large;
+  color:#ffffff
+  
+}
+
+.tabulka tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: coral;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  border-style: inherit;
+}
+
+.register {
+  margin: 30px auto;
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgb(0, 66, 151);
+}
+
+.register form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.register form input[type="text"],
+.register form input[type="varchar"],
+.register form input[type="int"] {
+  width: 310px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.register form input[type="text"],
+.register form input[type="varchar"],
+.register form input[type="int"] {
+  border: 1px solid #aaa;
+}
+
+h1 {
+  color: white;
+}
+
+.submit {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: rgb(58, 55, 55);
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.submit {
+  background-color: rgb(68, 66, 66);
+  transition: background-color 0.2s;
+  font-size: large;
+}
+
+.pridanie {
+  margin: 20px 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.pridanie form {
+  margin: 0 auto;
+}
+
+.pridanie form input[type="text"] {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.pridanie form input[type="text"] {
+  border: 1px solid #aaa;
+}
+
+.pridanie form input[type="submit"] {
+  width: 100px;
+  padding: 9px;
+  margin-top: 20px;
+  background-color: rgb(58, 55, 55);
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.pridanie form input[type="submit"]:hover {
+  background-color: rgb(68, 66, 66);
+  transition: background-color 0.2s;
+}
+
+
+.rowimg {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnimg {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columnimg img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columnimg {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnimg {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+p {
+  font-size: 22px;
+}
+
+.delete {
+  width: 100px;
+  padding: 9px;
+  align-items: left;
+  background-color: #3a3737;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
